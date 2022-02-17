@@ -1,11 +1,17 @@
 import React from 'react';
 
+import Header from './components/Herder';
+import Footer from './components/Footer';
+
+import './App.css';
+
 function App (){
   return (
-    <div>
-      <h1>Olá mundo</h1>
-      <p>teste de teste</p>
-    </div>
+  <>
+  <Header/>
+  <div>Páginas</div>
+  <Footer />
+  </>
   )
 }
 
