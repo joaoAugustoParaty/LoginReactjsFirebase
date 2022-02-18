@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AreaHeader = styled.div`
 height: 60px;
-background-color: #791e94;
+background-image: linear-gradient(to right, #161a2b, #370d44);
 color: #fff;
 
 .container {
@@ -14,8 +14,10 @@ align-items: center;
 .logo{
 flex: 1;
 
+
 img {
     width: 45px;
+    
 }
 }
 
@@ -27,6 +29,16 @@ ul{
 li{
     list-style: none;
     margin-left: 20px;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+
+        &:hover{
+            color: #f5bb00;
+        }
+    }
 }
+
 }
 `;
