@@ -33,6 +33,10 @@ li{
     a{
         text-decoration: none;
         color: #fff;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        
 
         &:hover{
             color: #f5bb00;
