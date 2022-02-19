@@ -15,8 +15,10 @@ align-items: center;
 flex: 1;
 
 
+
 img {
     width: 45px;
+    
     
 }
 }

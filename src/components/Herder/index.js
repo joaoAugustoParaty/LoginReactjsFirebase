@@ -1,24 +1,22 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {AreaHeader} from './styled';
-import HomeIcon from '@mui/icons-material/Home';
-import BuildIcon from '@mui/icons-material/Build';
-import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
+import MenuIcon from '@mui/icons-material/Menu';
 
 function Topo (){
     return (
        <AreaHeader>
         <div className='container'>
             <div className='logo'>
-              <img src="../../../logolobo.png"  alt='lobo'/>
+             <MenuIcon/> <img src="../../../logolobo.png"  alt='lobo'/>
             </div>
 
             <nav>
                 <ul>
-                    <li><Link to="/"><HomeIcon/>Inicío</Link></li>
-                    <li><Link to="/config"><BuildIcon/>Configurações</Link></li>
-                    <li><Link to="/logout"><ExitToAppIcon/>Sair</Link></li>
+                    <li><Link to="/">Inicío</Link></li>
+                    <li><Link to="/config">Configurações</Link></li>
+                    <li><Link to="/logout">Sair</Link></li>
                 </ul>
             </nav>
         </div>
