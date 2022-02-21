@@ -14,7 +14,9 @@ export default () => {
     <BrowserRouter>
       <Routes>
         <Route path="/registrar"></Route>
-
+       <AreaLogin>
+       <h1>Crie sua Conta</h1>
+       </AreaLogin>
         <Route path="*">
           <AreaLogin>
             <BtnDefautIcons>
